@@ -1,0 +1,22 @@
+#默认使用配置
+spring:
+  profiles:
+    active: dev
+
+#公共配置与profiles选择无关
+mybatis:
+  typeAliasesPackage: com.demo.entity
+  mapperLocations: classpath:mapper/*.xml
+
+
+---
+
+#开发配置
+spring:
+  profiles: dev
+
+  datasource:
+    url:  jdbc:oracle:thin:@localhost:1521:xe
+    username: lymedical
+    password: lymedical
+    driver-class-name: oracle.jdbc.driver.OracleDriver
