@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.demo.mapper.UserTestMapper" >
+  <resultMap id="BaseResultMap" type="com.demo.entity.UserTest" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="CODE" property="code" jdbcType="VARCHAR" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="PASSWORD" property="password" jdbcType="VARCHAR" />
+    <result column="DEPTCODE" property="deptcode" jdbcType="VARCHAR" />
+    <result column="STATE" property="state" jdbcType="INTEGER" />
+    <result column="EMAIL" property="email" jdbcType="VARCHAR" />
+    <result column="INVALIDDATE" property="invaliddate" jdbcType="TIMESTAMP" />
+    <result column="EEGDATE" property="eegdate" jdbcType="TIMESTAMP" />
+    <result column="TYPE" property="type" jdbcType="VARCHAR" />
+    <result column="MNEMONICS" property="mnemonics" jdbcType="VARCHAR" />
+    <result column="HEALTHTYPE" property="healthtype" jdbcType="VARCHAR" />
+    <result column="ISEXPERT" property="isexpert" jdbcType="CHAR" />
+    <result column="SECGROUP" property="secgroup" jdbcType="VARCHAR" />
+    <result column="CERTIFICATE" property="certificate" jdbcType="VARCHAR" />
+    <result column="ISDRUGRIGHT" property="isdrugright" jdbcType="CHAR" />
+    <result column="PNUMBER" property="pnumber" jdbcType="INTEGER" />
+    <result column="ENAME" property="ename" jdbcType="VARCHAR" />
+    <result column="FNAME" property="fname" jdbcType="VARCHAR" />
+    <result column="COMPANY" property="company" jdbcType="VARCHAR" />
+    <result column="POSITION" property="position" jdbcType="VARCHAR" />
+    <result column="DLEADER" property="dleader" jdbcType="VARCHAR" />
+    <result column="CELLPHONE" property="cellphone" jdbcType="VARCHAR" />
+    <result column="LANDLINE" property="landline" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATEDATE" property="updatedate" jdbcType="TIMESTAMP" />
+    <result column="PASSWORDDATE" property="passworddate" jdbcType="TIMESTAMP" />
+    <result column="SYNCFLAG" property="syncflag" jdbcType="CHAR" />
+  </resultMap>
+</mapper>
