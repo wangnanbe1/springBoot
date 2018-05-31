@@ -1,12 +1,16 @@
 package com.demo.service;
 
-import com.demo.entity.UserTest;
+import com.demo.entity.TestUser;
+
+import java.util.List;
 
 public interface UserService {
-    public void saveUser(UserTest users) throws Exception;
-    public void updateUser(UserTest users);
-    public void deleteUser(String userId);
-    public UserTest queryUserById(String userId);
+    public void saveUser(TestUser user);
 
+    public void updateUser(TestUser user);
 
+    public void daleteUserById(String id);
+
+    public TestUser queryUserById(String id);
+    public List<TestUser> selectList(TestUser user,Integer page,Integer pageSize);
 }
