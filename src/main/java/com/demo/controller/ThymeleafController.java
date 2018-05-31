@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("th")
-public class thymeleafController {
+public class ThymeleafController {
 
    @RequestMapping("/index")
     public String index(ModelMap map ){
